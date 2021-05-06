@@ -1,0 +1,247 @@
+
+#div_indi_car
+{
+	margin			: auto;
+	padding			: 20px;
+	text-align		: center;
+	width			: 650px;
+}
+
+#div_indi_car p
+{
+	margin			: 0;
+	padding			: 0;
+}
+
+#div_indi_car table
+{
+	margin			: auto;
+	width			: 100%;
+}
+
+#div_indi_car table.tab_indi_carrello
+{
+
+}
+
+#div_indi_car table.tab_indi_carrello th,
+#div_indi_car table.tab_indi_carrello td
+{
+	padding			: 6px;
+}
+
+#div_indi_car table.tab_indi_carrello td.td_img
+{
+	white-space: nowrap;
+}
+
+#div_indi_car table.tab_indi_carrello th
+{
+	background		: #EEE;
+	border-right		: 1px solid #FFF;
+	white-space		: nowrap;
+}
+
+#div_indi_car table.tab_indi_carrello tr.tr_p td
+{
+	background		: #FFF;
+}
+
+#div_indi_car table.tab_indi_carrello tr.tr_d td
+{
+	background		: #ECEADD;
+}
+
+#div_indi_car table.tab_indi_carrello td
+{
+	border-bottom		: 1px solid #CCC;
+	border-right		: 1px solid #EEE;
+}
+
+#div_indi_car table.tab_indi_carrello tr.tr_riga_tot td
+{
+	border-bottom		: 0;
+	border-right		: 0;
+}
+
+#div_indi_car table.tab_indi_carrello tr.tr_riga_tot td.td_tot
+{
+	background		: #F5F5F5;
+	border			: 1px solid #CCC;
+}
+
+#div_indi_car table.tab_indi_carrello tr.tr_riga_tot td.td_tot span.totale
+{
+	font-size		: 14px;	
+}
+
+#div_indi_car table.tab_indi_carrello td.td_3
+{
+	text-align		: left;
+}
+
+#div_indi_car input.input_1
+{
+	padding			: 2px;
+	font-size		: 11px;
+	font-family		: Arial, sans-serif;
+	background-color	: #EEE;
+	border			: 1px solid #666;
+}
+
+#div_indi_car input.bottone
+{
+	font-size		: 11px;
+	font-family		: Arial, sans-serif;
+	background-color	: #EEE;
+}
+
+#div_indi_car p.p_intro
+{
+	font-size		: 14px;
+	padding			: 3px;
+}
+
+#div_indi_car p.p_tot
+{
+	font-size		: 12px;
+}
+
+#div_indi_car div.div_info_totali
+{
+	float			: right;
+	width			: 67%;
+}
+
+#div_indi_car div.div_info_totali_box
+{
+	padding			: 7px;
+	background		: #EEE;
+	border			: 1px solid #CCC;
+}
+
+#div_indi_car div.div_info_totali_box span.totale
+{
+	font-size		: 14px;
+}
+
+#div_indi_car_tot
+{
+	background		: #F2F2F2;
+	line-height		: 14px;
+}
+
+#div_indi_car_mini
+{
+	padding			: 6px;
+	background		: #FFF;
+	margin-bottom		: 5px;
+		color			: #000;
+}
+
+#div_indi_car_mini a:link,
+#div_indi_car_mini a:visited
+{
+	color			: #C00;
+}
+
+#div_indi_car_mini table.tab_indi_carrello_mini
+{
+	width			: 100%;
+}
+
+#div_indi_car_mini table.tab_indi_carrello_mini td
+{
+	padding			: 1px;
+	border-bottom		: 1px solid #BBB;
+}
+
+#div_indi_car_mini table.tab_indi_carrello_mini td.td_pluslink,
+#div_indi_car_mini table.tab_indi_carrello_mini td.td_minuslink {
+   text-align           : center;
+   width                : 20px;
+   height                : 24px;
+   background-image: url(../images/bg_pm_link.gif);
+   background-position: center center;
+   background-repeat: no-repeat;
+}
+
+#div_indi_car_mini table.tab_indi_carrello_mini td.td_pluslink a:link,
+#div_indi_car_mini table.tab_indi_carrello_mini td.td_minuslink a:link,
+#div_indi_car_mini table.tab_indi_carrello_mini td.td_pluslink a:visited,
+#div_indi_car_mini table.tab_indi_carrello_mini td.td_minuslink a:visited {
+   width              : 100%;
+   display           : block;
+   color                : #444;
+   font-weight          : bold;
+}
+
+#div_indi_car_mini table.tab_indi_carrello_mini td.td_pluslink a:hover,
+#div_indi_car_mini table.tab_indi_carrello_mini td.td_minuslink a:hover {
+   text-decoration      : none;
+}
+
+#div_indi_car_mini_tot
+{
+	background		: #F5F5F5;
+	padding			: 5px;
+}
+
+#div_indi_car_mini p.p_intro
+{
+	text-align		: center;
+	font-size		: 12px;
+	font-weight		: bold;
+}
+
+#div_indi_car_mini_tot p.p_tot,
+#div_indi_car_mini_tot p.p_empty,
+#div_indi_car_mini_tot p.p_car
+{
+	text-align		: center;
+}
+
+#div_indi_car_mini_tot p.p_tot
+{
+	font-size		: 12px;
+}
+
+.pre_indi_car_list
+{
+	color			: #000;
+	padding		: 10px;
+	border		: 1px solid red; 
+	font-size		: 13px; 
+	background-color	: #FFF7F2;
+	width			: 550px;
+	font-family		: Trebuchet ms, sans-serif; 
+	font-size		: 14px;
+}
+#div_indi_car_inline a
+{
+	width			: 100%;
+	color:        #BB2626;
+}
+
+#div_indi_car_inline img
+{
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+
+#div_indi_car_inline
+{
+	display: inline;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+select.selected{
+	border:6px solid #FDB925;
+}
+option.selected{
+	font-weight:bold;
+	background-color:#FDB925;
+}
